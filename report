@@ -1,0 +1,36 @@
+Task 3: Refactoring Open-Source Collaborative Editor
+Objective
+
+Take an open-source collaborative editor project and refactor it for readability and performance.
+
+Implementation
+
+Readability changes:
+
+Clear variable/function naming.
+
+Added comments for better understanding.
+
+Consistent coding style.
+
+Performance improvements:
+
+Implemented debounce for frequent updates.
+
+Optimized room-based event broadcasting.
+
+Introduced caching for file persistence.
+
+Maintainability improvements:
+
+Split code into sockets.js, utils/, server.js.
+
+Reusable helper functions (logger, debounce).
+
+Impact
+
+Readability: Modularized code, easier debugging.
+
+Performance: Lower CPU/network usage, scalable design.
+
+Maintainability: Easier to add new features (auth, DB, CRDT).
